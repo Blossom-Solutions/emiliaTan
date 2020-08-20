@@ -1,0 +1,13 @@
+{
+    "name": "Emilia-tan webapp",
+    "short_name": "Emilia",
+    "description": "Share your photos and spread the love",
+    "start_url": ".",
+    "background_color": "#000000",
+    "theme_color": "#0f4a73",
+    "icons": [{
+      "src": "./favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }]
+  }
