@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 app.post('/api/register',  async (req,res)=>{
     let body = req.body;
     console.log(req.body);
-    let salt = bcrypt.genSaltSync(Math.random()*10)
+    let salt = bcrypt.genSaltSync(10)
     let {username,email,password} = body;
 
     let user = new User({
